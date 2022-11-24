@@ -1,38 +1,108 @@
-.App {
+.LandingPage{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=search] {
+  width: 60%;
+  padding: 16px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.SearchBUtoon{
+  padding: 1.5%;
+  font-size: 18px;
+  background-color: #184e65;
   color: white;
+  border-radius: 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.SearchBUtoon:hover{
+  box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
+  
 }
+.POpulerhead{
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 12px;
+  /* border: solid #0e4157 2px; */
+  padding: 1%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.wrap{
+  display: inline-block;
+  padding: 2%;
+  border: solid gray 1px;
+  justify-content: space-between;
+  margin: 1%;
+  width: 20%;
+}
+.wrap1{
+  display: inline-block;
+  padding: 1%;
+  /* border: solid gray 1px; */
+  justify-content: space-between;
+  margin: 1%;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.POpularBookDiv{
+  width: 100%;
+  /* display: flex; */
+}
+.Row1{
+  margin: 2%;
+}
+@media only screen and (max-width: 843px) {
+  div.wrap1 {
+   display: block;
+   /* justify-items: center; */
+   margin-left: 30%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.heading{
+  color: white;
+ 
+  padding: 1%;
+  margin-top: 0%;
+}
+img{
+  width: 60%;
+  height: 250px;
+}
+.BookDetailDiv{
+  border: solid black 2px;
+}
+.wrap:hover{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+h2{
+  font-size: 20px;
+}
+.loaderDiv{
+  /* text-align: center; */
+  /* justify-items: center */
+  margin-left: 50%;
+}
+.flex{
+  display: flex;
+  background-color: #0e4157;
+ justify-content: center;
+}
+.themeimg{
+  width: 5%;
+  height: 40%;
+  margin-left: 33%;
+  padding-left: 20%;
+}
+.HomeButton{
+  border-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: dodgerblue;
+  margin-top: 2%;
+  border-radius: 12px;
 }
